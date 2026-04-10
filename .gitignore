@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Environment variables
+.env
+
+# Database (generated at runtime)
+database/weather_data.db
+database/backups/
+
+# Generated reports (keep only sample)
+reports/*.html
+reports/*.csv
+reports/*.png
+!reports/sample_report.html
+
+# Generated logs (keep only samples)
+logs/*.log
+!logs/pipeline.log
+!logs/monitor.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
