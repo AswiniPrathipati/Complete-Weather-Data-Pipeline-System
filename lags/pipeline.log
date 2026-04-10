@@ -1,0 +1,32 @@
+2024-01-15 08:00:01 | INFO     | src.etl_pipeline      | ============================================================
+2024-01-15 08:00:01 | INFO     | src.etl_pipeline      | ETL Pipeline started at 2024-01-15 08:00:01
+2024-01-15 08:00:01 | INFO     | src.database          | Database ready: database/weather_data.db
+2024-01-15 08:00:02 | INFO     | src.etl_pipeline      | Extracted: Mumbai
+2024-01-15 08:00:02 | INFO     | src.etl_pipeline      | Extracted: Delhi
+2024-01-15 08:00:03 | INFO     | src.etl_pipeline      | Extracted: Bangalore
+2024-01-15 08:00:03 | INFO     | src.etl_pipeline      | Extracted: Chennai
+2024-01-15 08:00:04 | INFO     | src.etl_pipeline      | Extracted: Hyderabad
+2024-01-15 08:00:04 | INFO     | src.etl_pipeline      | Extracted: Kolkata
+2024-01-15 08:00:05 | INFO     | src.etl_pipeline      | Extracted: Vijayawada
+2024-01-15 08:00:05 | INFO     | src.etl_pipeline      | Extracted: Pune
+2024-01-15 08:00:06 | INFO     | src.etl_pipeline      | Extracted: Ahmedabad
+2024-01-15 08:00:06 | INFO     | src.etl_pipeline      | Extracted: Jaipur
+2024-01-15 08:00:07 | INFO     | src.etl_pipeline      | Extracted: Lucknow
+2024-01-15 08:00:07 | INFO     | src.etl_pipeline      | Extracted: Surat
+2024-01-15 08:00:08 | INFO     | src.etl_pipeline      | Extracted: Nagpur
+2024-01-15 08:00:08 | INFO     | src.etl_pipeline      | Extracted: Bhopal
+2024-01-15 08:00:09 | INFO     | src.etl_pipeline      | Extracted: Patna
+2024-01-15 08:00:09 | INFO     | src.etl_pipeline      | Quality: 15/15 passed (100.0%)
+2024-01-15 08:00:09 | INFO     | src.etl_pipeline      | Loaded 15 records (0 failed)
+2024-01-15 08:00:09 | WARNING  | src.etl_pipeline      | ALERT [WARNING] Chennai: HIGH_TEMP — 36.2 (threshold: 35.0)
+2024-01-15 08:00:09 | WARNING  | src.etl_pipeline      | ALERT [INFO]    Kolkata: HIGH_HUMIDITY — 87 (threshold: 85)
+2024-01-15 08:00:09 | INFO     | src.etl_pipeline      | Alerts triggered this run: 2
+2024-01-15 08:00:09 | INFO     | src.etl_pipeline      | Pipeline finished in 8.21s | SUCCESS
+2024-01-15 08:00:09 | INFO     | src.etl_pipeline      | ============================================================
+2024-01-15 09:00:01 | INFO     | src.etl_pipeline      | ============================================================
+2024-01-15 09:00:01 | INFO     | src.etl_pipeline      | ETL Pipeline started at 2024-01-15 09:00:01
+2024-01-15 09:00:09 | INFO     | src.etl_pipeline      | Quality: 15/15 passed (100.0%)
+2024-01-15 09:00:09 | INFO     | src.etl_pipeline      | Loaded 15 records (0 failed)
+2024-01-15 09:00:09 | INFO     | src.etl_pipeline      | Alerts triggered this run: 1
+2024-01-15 09:00:09 | INFO     | src.etl_pipeline      | Pipeline finished in 7.95s | SUCCESS
+2024-01-15 09:00:09 | INFO     | src.etl_pipeline      | ============================================================
