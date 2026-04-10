@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Weather Pipeline Report – 2024-01-15 08:00:10</title>
+<style>
+  body { font-family: Arial, sans-serif; background: #f4f6f8; color: #333; padding: 24px; }
+  h1   { color: #2c3e50; }
+  h2   { color: #2980b9; border-bottom: 2px solid #2980b9; padding-bottom: 6px; }
+  .grid { display: flex; flex-wrap: wrap; gap: 16px; margin-bottom: 28px; }
+  .card { background: #fff; border-radius: 8px; padding: 18px 24px;
+          box-shadow: 0 2px 6px rgba(0,0,0,.1); min-width: 140px; }
+  .card .val { font-size: 2em; font-weight: bold; color: #2980b9; }
+  .card .lbl { font-size: .85em; color: #888; }
+  table { border-collapse: collapse; width: 100%; background: #fff;
+          border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,.1); margin-bottom: 28px; }
+  th { background: #2980b9; color: #fff; padding: 10px 14px; text-align: left; }
+  td { padding: 8px 14px; border-bottom: 1px solid #eee; }
+  tr:hover td { background: #f0f4ff; }
+</style>
+</head>
+<body>
+<h1>🌦️ Weather Data Pipeline Report</h1>
+<p>Generated: 2024-01-15 08:00:10</p>
+
+<h2>📊 System Statistics</h2>
+<div class="grid">
+  <div class="card"><div class="val">30</div><div class="lbl">Total Records</div></div>
+  <div class="card"><div class="val">15</div><div class="lbl">Cities Tracked</div></div>
+  <div class="card"><div class="val">100%</div><div class="lbl">Data Quality</div></div>
+  <div class="card"><div class="val">2</div><div class="lbl">Open Alerts</div></div>
+</div>
+
+<h2>🌤️ Current Weather</h2>
+<table>
+  <tr><th>City</th><th>Temp</th><th>Humidity</th><th>Pressure</th><th>Wind</th><th>Condition</th><th>Label</th></tr>
+  <tr><td>Ahmedabad</td><td>32.1 °C</td><td>55 %</td><td>1008 hPa</td><td>4.2 m/s</td><td>Haze</td><td>Hot</td></tr>
+  <tr><td>Bangalore</td><td>24.8 °C</td><td>70 %</td><td>1015 hPa</td><td>2.2 m/s</td><td>Light Rain</td><td>Warm</td></tr>
+  <tr><td>Bhopal</td><td>27.3 °C</td><td>52 %</td><td>1012 hPa</td><td>3.1 m/s</td><td>Clear Sky</td><td>Warm</td></tr>
+  <tr><td>Chennai</td><td>36.2 °C</td><td>75 %</td><td>1006 hPa</td><td>5.0 m/s</td><td>Sunny</td><td>Very Hot</td></tr>
+  <tr><td>Delhi</td><td>22.3 °C</td><td>45 %</td><td>1016 hPa</td><td>4.1 m/s</td><td>Partly Cloudy</td><td>Warm</td></tr>
+  <tr><td>Hyderabad</td><td>30.5 °C</td><td>60 %</td><td>1010 hPa</td><td>3.8 m/s</td><td>Cloudy</td><td>Hot</td></tr>
+  <tr><td>Jaipur</td><td>25.8 °C</td><td>38 %</td><td>1014 hPa</td><td>5.5 m/s</td><td>Clear Sky</td><td>Warm</td></tr>
+  <tr><td>Kolkata</td><td>26.5 °C</td><td>87 %</td><td>1011 hPa</td><td>2.9 m/s</td><td>Overcast</td><td>Warm</td></tr>
+  <tr><td>Lucknow</td><td>23.1 °C</td><td>48 %</td><td>1015 hPa</td><td>3.3 m/s</td><td>Mist</td><td>Warm</td></tr>
+  <tr><td>Mumbai</td><td>28.5 °C</td><td>65 %</td><td>1013 hPa</td><td>3.5 m/s</td><td>Clear Sky</td><td>Warm</td></tr>
+  <tr><td>Nagpur</td><td>31.2 °C</td><td>50 %</td><td>1009 hPa</td><td>4.0 m/s</td><td>Haze</td><td>Hot</td></tr>
+  <tr><td>Patna</td><td>21.4 °C</td><td>62 %</td><td>1016 hPa</td><td>2.5 m/s</td><td>Fog</td><td>Warm</td></tr>
+  <tr><td>Pune</td><td>27.9 °C</td><td>58 %</td><td>1013 hPa</td><td>2.8 m/s</td><td>Partly Cloudy</td><td>Warm</td></tr>
+  <tr><td>Surat</td><td>33.4 °C</td><td>62 %</td><td>1007 hPa</td><td>4.7 m/s</td><td>Haze</td><td>Hot</td></tr>
+  <tr><td>Vijayawada</td><td>34.1 °C</td><td>68 %</td><td>1007 hPa</td><td>4.5 m/s</td><td>Partly Cloudy</td><td>Hot</td></tr>
+</table>
+
+<h2>🚨 Active Alerts</h2>
+<table>
+  <tr><th>Type</th><th>City</th><th>Message</th><th>Triggered</th></tr>
+  <tr>
+    <td style="color:#e74c3c"><b>HIGH_TEMP</b></td>
+    <td>Chennai</td>
+    <td>Chennai: HIGH_TEMP — 36.2 (threshold: 35.0)</td>
+    <td>2024-01-15 08:00:09</td>
+  </tr>
+  <tr>
+    <td style="color:#f39c12"><b>HIGH_HUMIDITY</b></td>
+    <td>Kolkata</td>
+    <td>Kolkata: HIGH_HUMIDITY — 87 (threshold: 85)</td>
+    <td>2024-01-15 08:00:09</td>
+  </tr>
+</table>
+
+<h2>📈 Temperature Analysis (30 days)</h2>
+<table>
+  <tr><th>City</th><th>Avg</th><th>Max</th><th>Min</th><th>Records</th></tr>
+  <tr><td>Chennai</td><td>35.1 °C</td><td>38.2 °C</td><td>29.5 °C</td><td>2</td></tr>
+  <tr><td>Vijayawada</td><td>33.6 °C</td><td>36.0 °C</td><td>28.1 °C</td><td>2</td></tr>
+  <tr><td>Surat</td><td>32.7 °C</td><td>35.1 °C</td><td>27.8 °C</td><td>2</td></tr>
+  <tr><td>Ahmedabad</td><td>31.5 °C</td><td>34.2 °C</td><td>27.0 °C</td><td>2</td></tr>
+  <tr><td>Nagpur</td><td>30.6 °C</td><td>33.0 °C</td><td>26.5 °C</td><td>2</td></tr>
+  <tr><td>Hyderabad</td><td>29.8 °C</td><td>32.1 °C</td><td>25.9 °C</td><td>2</td></tr>
+  <tr><td>Mumbai</td><td>28.0 °C</td><td>30.2 °C</td><td>24.8 °C</td><td>2</td></tr>
+  <tr><td>Pune</td><td>27.4 °C</td><td>29.8 °C</td><td>24.1 °C</td><td>2</td></tr>
+  <tr><td>Bhopal</td><td>26.8 °C</td><td>29.1 °C</td><td>23.2 °C</td><td>2</td></tr>
+  <tr><td>Kolkata</td><td>26.0 °C</td><td>28.3 °C</td><td>22.5 °C</td><td>2</td></tr>
+  <tr><td>Jaipur</td><td>25.3 °C</td><td>27.9 °C</td><td>21.4 °C</td><td>2</td></tr>
+  <tr><td>Bangalore</td><td>24.3 °C</td><td>26.5 °C</td><td>20.8 °C</td><td>2</td></tr>
+  <tr><td>Lucknow</td><td>22.7 °C</td><td>25.1 °C</td><td>19.2 °C</td><td>2</td></tr>
+  <tr><td>Delhi</td><td>21.8 °C</td><td>24.4 °C</td><td>18.5 °C</td><td>2</td></tr>
+  <tr><td>Patna</td><td>20.9 °C</td><td>23.5 °C</td><td>17.4 °C</td><td>2</td></tr>
+</table>
+</body>
+</html>
